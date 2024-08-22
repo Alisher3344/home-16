@@ -350,101 +350,135 @@
 // console.log(Ee.getSalary());
 // console.log(Ee.getWork());
 
-// class 7
-class Animal {
-  #name;
-  #speed;
-  #weight;
-  constructor(name, speed, weight) {
-    this.#name = name;
-    this.#speed = speed;
-    this.#weight = weight;
-  }
-}
-class Mammal extends Animal {
-  #legs;
-  constructor(legs, name, speed, weight) {
-    super(name, speed, weight);
-    this.#legs = legs;
-  }
-  getLegs() {
-    return this.#legs;
-  }
-  setLegs(panja) {
-    this.#legs = panja;
-  }
-}
+// // class 7
+// class Animal {
+//   #name;
+//   #speed;
+//   #weight;
+//   constructor(name, speed, weight) {
+//     this.#name = name;
+//     this.#speed = speed;
+//     this.#weight = weight;
+//   }
+// }
+// class Mammal extends Animal {
+//   #legs;
+//   constructor(legs, name, speed, weight) {
+//     super(name, speed, weight);
+//     this.#legs = legs;
+//   }
+//   getLegs() {
+//     return this.#legs;
+//   }
+//   setLegs(panja) {
+//     this.#legs = panja;
+//   }
+// }
 
-class Cat extends Mammal {
-  #sound;
-  constructor(sound, name, speed, weight) {
-    super(name, speed, weight);
-    this.#sound = sound;
-  }
-  getSound() {
-    return this.#sound;
-  }
-}
-class Dog extends Mammal {
-  #sound;
-  constructor(sound, name, speed, weight) {
-    super(name, speed, weight);
-    this.#sound = sound;
-  }
-  getSound() {
-    return this.#sound;
-  }
-}
-class fish extends Animal {
-  #size;
-  constructor(size, name, speed, weight) {
-    super(name, speed, weight);
-    this.#size = size;
-  }
-  getSize() {
-    return this.#size;
-  }
-  setSize(olcham) {
-    this.#size = olcham;
-  }
-}
-class Whale extends fish {
-  #sound;
-  constructor(sound, name, speed, weight) {
-    super(name, speed, weight);
-    this.#sound = sound;
-  }
-  getSound() {
-    return this.#sound;
-  }
-}
+// class Cat extends Mammal {
+//   #sound;
+//   constructor(sound, name, speed, weight) {
+//     super(name, speed, weight);
+//     this.#sound = sound;
+//   }
+//   getSound() {
+//     return this.#sound;
+//   }
+// }
+// class Dog extends Mammal {
+//   #sound;
+//   constructor(sound, name, speed, weight) {
+//     super(name, speed, weight);
+//     this.#sound = sound;
+//   }
+//   getSound() {
+//     return this.#sound;
+//   }
+// }
+// class fish extends Animal {
+//   #size;
+//   constructor(size, name, speed, weight) {
+//     super(name, speed, weight);
+//     this.#size = size;
+//   }
+//   getSize() {
+//     return this.#size;
+//   }
+//   setSize(olcham) {
+//     this.#size = olcham;
+//   }
+// }
+// class Whale extends fish {
+//   #sound;
+//   constructor(sound, name, speed, weight) {
+//     super(name, speed, weight);
+//     this.#sound = sound;
+//   }
+//   getSound() {
+//     return this.#sound;
+//   }
+// }
 
-class shark extends fish {
-  #sound;
-  constructor(sound, name, speed, weight) {
-    super(name, speed, weight);
-    this.#sound = sound;
-  }
-  getSound() {
-    return this.#sound;
-  }
-}
-const ani = new Animal("as", 22, 22);
+// class shark extends fish {
+//   #sound;
+//   constructor(sound, name, speed, weight) {
+//     super(name, speed, weight);
+//     this.#sound = sound;
+//   }
+//   getSound() {
+//     return this.#sound;
+//   }
+// }
+// const ani = new Animal("as", 22, 22);
 
-const mel = new Mammal("!!");
-console.log(mel.getLegs());
+// const mel = new Mammal("!!");
+// console.log(mel.getLegs());
 
-const cat = new Cat("Meow");
-console.log(cat.getSound());
+// const cat = new Cat("Meow");
+// console.log(cat.getSound());
 
-const dog = new Dog("Woof");
-console.log(dog.getSound());
+// const dog = new Dog("Woof");
+// console.log(dog.getSound());
 
-const fi = new fish("1m");
-console.log(fi.getSize());
+// const fi = new fish("1m");
+// console.log(fi.getSize());
 
-const kit = new Whale("Poof");
-console.log(kit.getSound());
+// const kit = new Whale("Poof");
+// console.log(kit.getSound());
 
-const akua = new shark("Sheef");
-console.log(akua.getSound());
+// const akua = new shark("Sheef");
+// console.log(akua.getSound());
+
+// // class 8
+// class statiklar {
+//   static customKeys(obj) {
+//     return Object.keys(obj);
+//   }
+
+//   static customValues(obj) {
+//     return Object.values(obj);
+//   }
+//   static customEntries(obj) {
+//     return Object.entries(obj);
+//   }
+//   static customIsInteger(value) {
+//     return Number.isInteger(value);
+//   }
+//   static customIsArray(arr) {
+//     return Array.isArray(arr);
+//   }
+// }
+// const obj = [
+//   ["a", 1],
+//   ["b", 2],
+//   ["c", 3],
+// ];
+// const value = 10.3;
+// const arr = [12, 2, 2];
+// console.log(statiklar.customKeys(obj));
+// console.log(statiklar.customValues(obj));
+// console.log(statiklar.customEntries(obj));
+// console.log(statiklar.customIsInteger(value));
+// console.log(statiklar.customIsArray(arr));
+
+// class 9
